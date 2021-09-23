@@ -1,0 +1,110 @@
+
+page {
+	background: #F9F9F9;
+}
+.query_img {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	width:100%;
+	height: 76rpx;
+	background: #FFFFFF;
+	border-radius: 20rpx;
+	border: 2rpx solid #E1E1E1;
+	padding: 0 28rpx;
+	margin-bottom: 20rpx;
+}
+.query_imgs {
+	width: 28rpx;
+	height: 28rpx;
+	margin-right: 30rpx;
+}
+.query_search {
+	position: absolute;
+	right: 56rpx;
+	border-left: 2rpx solid #E1E1E1;
+	padding-left: 28rpx;
+	color: #4697FF;
+}
+.query_search:active {
+	background: #eeeeee;
+}
+.appointment {
+	padding: 18rpx 30rpx;
+}
+.appointment-list {
+	background: #fff;
+	width: 100%;
+	border-radius: 16rpx;
+	padding: 36rpx 30rpx;
+	margin-bottom: 30rpx;
+}
+.appointment-list-line {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	        flex-direction: row;
+}
+.list-line-left {
+	width: 23%;
+	font-size: 30rpx;
+	color: #868686;
+	font-weight: 300;
+}
+.list-line-right {
+	width: 77%;
+	color: #2C2C2C;
+	font-weight: 300;
+}
+.list-line-rights {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 4;
+	-webkit-box-orient: vertical;
+}
+.appointment-btn {
+	width: 100%;
+	text-align: right;
+	margin-top: 32rpx;
+}
+.appointment-btn-details {
+	width: 184rpx;
+	height: 60rpx;
+	border-radius: 8rpx;
+	border: 1rpx solid #A2A2A2;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	font-size: 30rpx;
+	color: #4E4E4E;
+	margin-left: calc(100% - 184rpx);
+	margin-top: 28rpx;
+}
+.appointment-btn-details:active {
+	background: #f1f1f1;
+}
+.appointment-btn-state {
+	color: #4697FF;
+	font-size: 30rpx;
+	font-weight: 500;
+	margin-left: 24rpx;
+}
+
+

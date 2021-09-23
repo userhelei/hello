@@ -1,0 +1,37 @@
+{
+    "pages": [
+        "pages/index/choose",
+        "pages/index/index",
+        "pages/user/home/home",
+        "pages/user/appointment/home/home",
+        "pages/engineer/home/home",
+        "pages/user/my/my",
+        "pages/user/appointment/appointment-my/appointment-my",
+        "pages/user/complaint/complaint-my/complaint-my",
+        "pages/user/order/order-list/order-list",
+        "pages/user/complaint/home/home",
+        "pages/user/order/order-details/order-details",
+        "pages/user/appointment/appointment-details/appointment-details",
+        "pages/user/feedback/home/home",
+        "pages/engineer/order/order-details/order-details",
+        "pages/engineer/order/home/home",
+        "pages/engineer/my/my",
+        "pages/engineer/order/query/query",
+        "pages/engineer/order/order-list/order-list",
+        "pages/engineer/order/order-list/order-lists",
+        "pages/engineer/order/order-list/order-list-details",
+        "pages/engineer/order/order-list/order-lists-affirm"
+    ],
+    "subPackages": [],
+    "window": {
+        "navigationBarTextStyle": "black",
+        "navigationBarTitleText": "登录",
+        "navigationBarBackgroundColor": "#F8F8F8",
+        "backgroundColor": "#F8F8F8",
+        "navigationStyle": "custom"
+    },
+    "usingComponents": {
+        "cu-tab-bar": "/components/custom/cu-tabBar"
+    },
+    "sitemapLocation": "sitemap.json"
+}

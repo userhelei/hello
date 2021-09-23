@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "cu-tab-bar": "/components/custom/cu-tabBar"
+  }
+}
